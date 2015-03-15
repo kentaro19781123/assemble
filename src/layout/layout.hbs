@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>{{title}}</title>
+{{#styles}}
+<link rel="stylesheet" href="css/{{.}}.css" />
+{{/styles}}
+
+</head>
+<body>
+<div id="page">
+
+{{>global-header}}
+{{>global-nav}}
+{{> body}}
+{{> footer}}
+
+</div>
+
+{{#scripts}}
+<script src="../js/{{.}}.js"></script>
+{{/scripts}}
+
+</body>
+</html>

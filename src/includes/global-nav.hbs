@@ -1,0 +1,22 @@
+{{#if global-nav}}
+<nav>
+	<div id="global-nav">
+		<ul>
+			<li><a href="#"{{#is nav-menu 0}} class="on"{{/is}}><span>menu1</span></a></li>
+			<li><a href="#"{{#is nav-menu 1}} class="on"{{/is}}><span>menu2</span></a></li>
+			<li><a href="#"{{#is nav-menu 2}} class="on"{{/is}}><span>menu3</span></a></li>
+		</ul>
+
+		{{#if sns}}
+		<div id="sns">
+			<ul>
+				<li id="tw"><a href="#" target="_blank">twitter</a></li>
+				<li id="fb"><a href="#" target="_blank">facebook</a></li>
+				<li id="gp"><a href="#" target="_blank">google+</a></li>
+			</ul>
+		</div>
+		{{/if}}
+
+	</div>
+</nav>
+{{/if}}

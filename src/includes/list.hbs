@@ -1,0 +1,32 @@
+<section>
+	<div id="list">
+	{{#is page-type "detail"}}
+		<h2>page-type detailの見出しH2</h2>
+	{{else}}
+		<h2>page-type detail以外の見出しH2</h2>
+	{{/is}}
+
+		<div id="list-block">
+			<ul class="cx">
+				{{#each}}
+				<li>
+					<a href="#">
+						<div class="photo"><img src="../img/photo01.jpg" width="260" height="260" alt="" title=""></div>
+						<div class="fair-menu-detail">
+							<p class="menu-name">リスト01</p>
+						</div>
+						{{#is page-type "detail"}}
+						<p>page-type detailだったら表示する内容</p>
+						{{else}}
+						<p>page-type detail以外だったら表示する内容</p>
+						{{/is}}
+					</a>
+				</li>
+				{{/each}}
+
+
+			</ul>
+
+		</div>
+	</div>
+</section>
