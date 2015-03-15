@@ -18,7 +18,6 @@ Handlebarsを利用できる。
 
 Gruntfile.jsにタスクを追加
 
----
 
 ```
 assemble: {
@@ -93,6 +92,7 @@ grunt.registerTask('default', ['assemble']);
 <div>aaaaaaaaa</div>
 ```
 
+***
 
 ###**YAML**
 YAMLで記述しておくとページ別の設定ができる。
@@ -126,7 +126,7 @@ title: 'ページタイトル'
 <title>ページタイトル</title>
 ```
 
-
+***
 .hbs
 
 ```
@@ -166,7 +166,7 @@ page-type: 'detail'
 <p>page-type detailだったら表示する内容</p>
 ```
 
-
+***
 
 .hbs
 
@@ -185,7 +185,10 @@ nav-menu: ０
 <a href="#"><span>menu1</span></a>
 ```
 
+***
+
 .hbs
+
 ```
 ---
 parts: true
