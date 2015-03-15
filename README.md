@@ -18,7 +18,6 @@ Handlebarsを利用できる。
 
 Gruntfile.jsにタスクを追加
 
-
 ```
 assemble: {
 	options: {
@@ -145,6 +144,7 @@ styles: ['common','page']
 <link rel="stylesheet" href="css/page.css" />
 ```
 
+***
 ###**分岐させる**
 
 .hbs
@@ -204,5 +204,6 @@ parts: true
 <div>aaaaaaaaa</div>
 ```
 
+***
 ###**ループ**
 
