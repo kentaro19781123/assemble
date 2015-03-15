@@ -1,23 +1,16 @@
 #**assemble**
 
-assembleについて。
-
-
-##**assembleとは？**
----
-
 Gruntで動かせる静的HTML生成ツール。  
 コンパイルすることでHTMLを生成することができる。  
 Handlebarsを利用できる。
 
 ##**やりたかったこと**
----
 ・インクルードできる  
 ・分岐ができる  
 ・Gruntで常時監視したかった。  
 
 ##**install**
----
+
 ```npm install assemble --save-dev```
 
 
@@ -54,7 +47,6 @@ grunt.registerTask('default', ['assemble']);
 
 ##**Example**
 
----
 ###**includeさせる**
 
 
@@ -208,3 +200,6 @@ parts: true
 ```
 <div>aaaaaaaaa</div>
 ```
+
+###**ループ**
+
